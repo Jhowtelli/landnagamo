@@ -62,8 +62,8 @@ body {
     transform: translateY(-18px);
   }
 }
-/* Responsividade para celulares */
-@media (max-width: 600px) {
+/* Responsividade para celulares e tablets */
+@media (max-width: 900px) {
   body {
     background: url('caputuracelular.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -75,7 +75,20 @@ body {
     display: none;
   }
   .cookie-img-mobile {
-    width: 90vw;
-    max-width: 95vw;
+    width: 96vw;
+    max-width: 420px;
+    min-width: 180px;
+    margin: 0 auto;
+    padding: 0 2vw;
+  }
+}
+
+/* Ajuste extra para celulares muito pequenos */
+@media (max-width: 400px) {
+  .cookie-img-mobile {
+    width: 98vw;
+    max-width: 98vw;
+    min-width: 120px;
+    padding: 0 1vw;
   }
 }
