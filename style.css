@@ -65,7 +65,7 @@ body {
 /* Responsividade para celulares */
 @media (max-width: 600px) {
   body {
-    background: url('caputracookiecelular.jpg') no-repeat center center fixed;
+    background: url('caputuracelular.jpg') no-repeat center center fixed;
     background-size: cover;
   }
   .img-mobile {
