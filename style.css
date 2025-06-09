@@ -49,6 +49,16 @@ body {
 .img-desktop {
   display: block;
 }
+.cookie-img-desktop {
+  width: 420px;
+  max-width: 90vw;
+  /* outros estilos desejados */
+}
+.cookie-img-mobile {
+  width: 420px;
+  max-width: 90vw;
+  /* outros estilos desejados */
+}
 
 /* Responsividade para celulares */
 @media (max-width: 600px) {
@@ -56,15 +66,15 @@ body {
     background: url('caputuracelular.jpg') no-repeat center center fixed;
     background-size: cover;
   }
-  .cookie-img {
-    width: 90vw;
-    max-width: 95vw;
-  }
   .img-mobile {
     display: block;
   }
   .img-desktop {
     display: none;
+  }
+  .cookie-img-mobile {
+    width: 90vw;
+    max-width: 95vw;
   }
 }
 
